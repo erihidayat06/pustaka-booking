@@ -1,6 +1,6 @@
 body {
 	background: #eee;
-	color: #333;
+	color: #190b6a;
 	font-family: sans-serif;
 	font-size: 15px;
 }
@@ -10,7 +10,7 @@ body {
 	margin: 20px auto;
 }
 #wrapper header {
-	background: #232323;
+	background: #190b6a;
 	padding: 20px;
 }
 #wrapper header hgroup {
@@ -38,7 +38,7 @@ body {
 	clear: both;
 }
 footer {
-	background: #232323;
+	background: #190b6a;
 	padding: 20px;
 }
 footer a {
