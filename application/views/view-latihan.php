@@ -7,7 +7,7 @@
     <title>Penjumlahan</title>
 </head>
 <body>
-    <p>Saat ini saya belajar Web Programing</p>
+    Saat ini Saya belajar PHP Penjumlahan <br>
     Nilai 1 = <?= $nilai1;?> <br>
     Nilai 2 = <?= $nilai2; ?> <br>
 

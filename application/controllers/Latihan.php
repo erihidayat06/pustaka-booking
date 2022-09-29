@@ -11,7 +11,12 @@ class Latihan extends CI_Controller{
 
     function index()
     {
-    echo "Selamat belajar web programing 2 Dengan kelas 12.3A.35";
+    // echo "Selamat belajar web programing 2 Dengan kelas 12.3A.35";
+
+    $this->load->view('templates/header');
+    $this->load->view('templates/sidebar');
+    $this->load->view('templates/topbar');
+    $this->load->view('templates/footer');
     }
 
     public function penjumlahan ($n1, $n2){
@@ -21,7 +26,9 @@ class Latihan extends CI_Controller{
 
        $data['hasil'] = $this -> Model_latihan -> jumlah($n1,$n2);
 
-       $this -> load -> view('view-latihan', $data);
+        $this->load->view('templates/header');
+        $this -> load -> view('view-latihan', $data);
+       
 
     }
 
