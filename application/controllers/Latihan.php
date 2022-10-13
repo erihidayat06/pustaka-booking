@@ -17,6 +17,10 @@ class Latihan extends CI_Controller{
     $this->load->view('templates/sidebar');
     $this->load->view('templates/topbar');
     $this->load->view('templates/footer');
+
+    // $this->load->view('templates/aute_header');
+    // $this->load->view('autentifikasi/login.php');
+    // $this->load->view('templates/aute_footer');
     }
 
     public function penjumlahan ($n1, $n2){
