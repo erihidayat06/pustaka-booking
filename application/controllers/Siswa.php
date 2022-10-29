@@ -14,6 +14,7 @@ class Siswa extends CI_Controller
             $this->load->view('templates/sidebar', $data);
             $this->load->view('templates/topbar', $data);
             $this->load->view('siswa/data', $data);
+            $this->load->view('templates/footer');
             
     }
 

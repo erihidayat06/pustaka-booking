@@ -1,19 +1,19 @@
 <!-- Divider -->
  <hr class="sidebar-divider">
- <div class="container ml-5">
+ <div class="container ml-4">
 
     <a href="siswa/tambah" type="submit" class="btn btn-primary">Tambah Siswa</a>
  </div>
 
  <!-- row table-->
  <div class="row">
- <div class="table-responsive table-bordered col-lg-10 ml-auto mr-auto mt-2">
+ <div class="table-responsive table-bordered col-lg-11 ml-auto mr-auto mt-2">
  <div class="page-header">
- <h1><span class="fas fa-users text-primary mt-2 ">Data siswa</span></h1>
+ <h1><span class="fas fa-users text-primary mt-2 "> Data siswa</span></h1>
  </div>
- <table class="table text-dark table-bordered mt-4">
+ <table class="table table-hover text-dark table-bordered mt-4">
 <thead>
- <tr>
+ <tr class="text-center">
 <th>#</th>
  <th>Nama Anggota</th>
  <th>NIS</th>
@@ -51,4 +51,7 @@
  <?php } ?>
 
   </table>
+ </div>
+ </div>
+</div>
 

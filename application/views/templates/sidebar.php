@@ -22,8 +22,8 @@
                         <!-- Nav Item - Dashboard -->
                         <li class="nav-item">
                             <a class="nav-link pb-0" href="<?= base_url('admin'); ?>">
-                                <i class="fa fa-fw fa book"></i>
-                                <span>Dashboard</span></a>
+                                <i class="bi bi-house-door-fill"></i>
+                                <span> Dashboard</span></a>
                         </li>
                     </li>
 
