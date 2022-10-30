@@ -39,10 +39,8 @@ class Siswa extends CI_Controller
             'tanggal-lahir',
             'tempat-lahir',
             'alamat',
-            'jenis_kelamin',
-            'agama',
             'required',[
-                'required' => 'Semua Data harus diisi'
+            'required' => 'Semua Data harus diisi'
             ]);
         $data = array(
         'nama' => $this->input->post('nama'),
@@ -68,10 +66,10 @@ class Siswa extends CI_Controller
         $data['siswa'] = $this->ModelSiswa->siswaWhere($where)->row_array();
         
             $this->load->view('templates/header', $data);
-                $this->load->view('templates/sidebar');
-                $this->load->view('templates/topbar');
-                $this->load->view('siswa/edit',$data);
-                $this->load->view('templates/footer');
+            $this->load->view('templates/sidebar');
+            $this->load->view('templates/topbar');
+            $this->load->view('siswa/edit',$data);
+            $this->load->view('templates/footer');
     }
 
     public function editDataSiswa(){
