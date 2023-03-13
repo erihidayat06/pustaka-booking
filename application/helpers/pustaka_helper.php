@@ -9,7 +9,7 @@ function cek_login()
         {
             redirect('autentifikasi');
         } else {
-            redirect('home');
+            redirect('autentifikasi');
         }
     } else {
         $role_id = $ci->session->userdata('role_id');
